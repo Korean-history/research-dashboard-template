@@ -1,0 +1,24 @@
+# Local/editor/cache files
+.git/
+.pytest_cache/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Python environments and local secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Temporary files
+~$*
+~WRL*.tmp
+*.tmp
+*.tmp.*
+*.errors.txt
+
+# Runtime caches and generated QA folders
+node_modules/
+verification_reports/
+local-only-stylometric-cache/

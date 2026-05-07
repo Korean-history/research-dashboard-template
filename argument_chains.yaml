@@ -1,0 +1,33 @@
+schema_version: 1
+purpose: "Starter argument-chain simulations built from source snippet cards."
+chains:
+  - chain_id: chain:demo_argument_chain
+    title: Demo Argument Chain
+    status: simulation
+    chapter: Ch1
+    source_agent: Template
+    target: Starter scaffold for testing the dashboard
+    movement: >
+      Demonstrates how three source snippets can support one claim and one
+      synthesis card without requiring project-specific material.
+    notes: >
+      Replace this chain with a real chain once the new project has evidence.
+    items:
+      - id: item:demo_01
+        snippet_id: snippet:template_primary_anchor_1
+        argument_role: contextual
+        prose_policy: paraphrase
+        instruction: Establish the first source anchor.
+        caveat: Template evidence only.
+      - id: item:demo_02
+        snippet_id: snippet:template_primary_anchor_2
+        argument_role: supporting
+        prose_policy: paraphrase
+        instruction: Add the second source anchor.
+        caveat: Template evidence only.
+      - id: item:demo_03
+        snippet_id: snippet:template_primary_anchor_3
+        argument_role: climactic
+        prose_policy: paraphrase
+        instruction: Close the sample chain.
+        caveat: Template evidence only.

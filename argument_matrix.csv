@@ -1,0 +1,2 @@
+claim_id,chapter,claim,claim_type,source_ids,report_files,entity_ids,term_ids,depends_on,strength,status,risk_level,integration_target,ticket_action,notes
+claim:template_core_argument,Ch1,Three source anchors can support a starter claim.,interpretive,source:demo_archive,Template_Report.md,,,,strong,stable,low,Ch1 sample,Replace sample evidence with project evidence.,Template row for smoke tests.

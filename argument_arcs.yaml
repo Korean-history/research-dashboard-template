@@ -1,0 +1,13 @@
+schema_version: 1
+purpose: "Starter argument arcs for a new research project."
+arcs:
+  - arc_id: "arc:demo_argument"
+    title: "Demo Argument Arc"
+    chapters: ["Ch1"]
+    tags: ["method", "evidence", "synthesis"]
+    claim_ids:
+      - "claim:template_core_argument"
+    report_files:
+      - "Template_Report.md"
+    core_question: "How does the sample evidence support a bounded claim?"
+    synthesis_note: "Replace this with the project's real argument movement."

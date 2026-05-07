@@ -1,0 +1,14 @@
+schema_version: 1
+logseq_paths:
+  - regex: 'C:\\Logseq Local\\pages\\[^`\]\)\r\n]+\.md'
+    confidence: high
+  - regex: 'C:\\Logseq Roam\\pages\\[^`\]\)\r\n]+\.md'
+    confidence: high
+  - regex: '`([^`]+\.md)`'
+    confidence: medium
+filename_only:
+  - regex: '([一-鿿가-힯][^\s`]*\.md)'
+    confidence: low
+corpus_id_mentions:
+  - regex: '\b(source:[a-z0-9_]+)\b'
+    confidence: high

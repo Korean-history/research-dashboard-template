@@ -1,0 +1,2 @@
+file,family,task,title,chapters,topics,keywords,coverage,status,source_corpus,cluster_id,integration_target,cautions,notes
+Template_Report.md,template,T01,Template sample report,Ch1,method,evidence,template,active,demo,template-demo,Ch1 sample,,Replace with real report metadata.

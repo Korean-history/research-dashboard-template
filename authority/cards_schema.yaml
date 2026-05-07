@@ -1,0 +1,505 @@
+schema_version: 1
+purpose: "Phase 1 schema for the parallel cards apparatus."
+guardrails:
+  no_write_backs: true
+  structured_source_snippets_in_yaml: true
+  filename_ids_use_dots: true
+  frontmatter_ids_use_colons: true
+
+card_types:
+  source_snippet:
+    filename_prefix: "snippet."
+    id_prefix: "snippet"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [source_id, original_lang, extraction_date, extraction_verified, original_snippet, translation_or_summary]
+    optional: [template_instance, card_source, notes, logseq_file, page_or_line, source_locator, report_files, claim_ids, entity_ids, term_ids, provenance_report, source_query, source_ids, arc_rationale, strength, warning_flags, evidence_role, evidence_type, citation_status, risk_level, friction_notes]
+  idea:
+    filename_prefix: "idea."
+    id_prefix: "idea"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [register]
+    optional: [template_instance, card_source, notes, term_id, canonical_form, term_variants, romanization, parent_idea, sub_ideas, cautions]
+  claim:
+    filename_prefix: "claim."
+    id_prefix: "claim"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [claim_text, claim_type, strength, risk_level]
+    optional: [template_instance, card_source, notes, depends_on, integration_target, ticket_action, matrix_row_id]
+  entity:
+    filename_prefix: "entity."
+    id_prefix: "entity"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [entity_id, entity_subtype, canonical_label, role_in_book]
+    optional: [template_instance, card_source, notes, romanization_primary, romanization_variants, korean_reading, dates, chapters_appears, correction_history, cautions]
+  question:
+    filename_prefix: "question."
+    id_prefix: "question"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [question_text, question_status, opened_date, priority]
+    optional: [template_instance, card_source, notes, closed_date, candidate_evidence, blocking]
+  synthesis:
+    filename_prefix: "synthesis."
+    id_prefix: "synthesis"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [synthesis_text, inputs, register, strength]
+    optional: [template_instance, card_source, notes, output_claims, derived_from_reports]
+  bridge:
+    filename_prefix: "bridge."
+    id_prefix: "bridge"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [from_chapter, to_chapter, bridge_text, register]
+    optional: [template_instance, card_source, notes, upstream_claims, downstream_claims, informed_by_reports]
+  counterargument:
+    filename_prefix: "counterargument."
+    id_prefix: "counterargument"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [position_text, position_status]
+    optional: [template_instance, card_source, notes, position_holders, historiographical_tradition, refuting_synthesis, refuting_snippets, informed_by_reports]
+  timeline:
+    filename_prefix: "timeline."
+    id_prefix: "timeline"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [event_label, date, date_precision, sequence_id, sequence_order]
+    optional: [template_instance, card_source, notes, date_end, causal_predecessors, evidence_cards]
+  place:
+    filename_prefix: "place."
+    id_prefix: "place"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [place_id, place_label, spatial_argument, register]
+    optional: [template_instance, card_source, notes, geographic_location, occupants, associated_events]
+  moc:
+    filename_prefix: "moc."
+    id_prefix: "moc"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [moc_scope, moc_level, child_cards]
+    optional: [template_instance, card_source, notes, parent_moc, max_children_warning]
+  scaffold:
+    filename_prefix: "scaffold."
+    id_prefix: "scaffold"
+    required_core: [id, card_type, title, created, updated, status, chapter_relevance, arc_ids, tags, linked_cards]
+    required_type_specific: [scaffold_text, structural_pattern, output_chapter_section]
+    optional: [template_instance, card_source, notes, sub_arguments, feeding_synthesis, informed_by_reports]
+
+directories:
+  source_snippet: "cards/source_snippet"
+  idea: "cards/idea"
+  claim: "cards/claim"
+  entity: "cards/entity"
+  question: "cards/question"
+  synthesis: "cards/synthesis"
+  bridge: "cards/bridge"
+  counterargument: "cards/counterargument"
+  timeline: "cards/timeline"
+  place: "cards/place"
+  moc: "cards/moc"
+  scaffold: "cards/scaffold"
+  templates: "cards/templates"
+
+id_prefixes:
+  source_snippet: "snippet:"
+  idea: "idea:"
+  claim: "claim:"
+  entity: "entity:"
+  question: "question:"
+  synthesis: "synthesis:"
+  bridge: "bridge:"
+  counterargument: "counterargument:"
+  timeline: "timeline:"
+  place: "place:"
+  moc: "moc:"
+  scaffold: "scaffold:"
+
+filename_prefixes:
+  source_snippet: "snippet."
+  idea: "idea."
+  claim: "claim."
+  entity: "entity."
+  question: "question."
+  synthesis: "synthesis."
+  bridge: "bridge."
+  counterargument: "counterargument."
+  timeline: "timeline."
+  place: "place."
+  moc: "moc."
+  scaffold: "scaffold."
+
+core_fields:
+  required:
+    id: string
+    card_type: string
+    title: string
+    created: date
+    updated: date
+    status: enum
+    chapter_relevance: list
+    arc_ids: list
+    tags: list
+    linked_cards: mapping
+  optional:
+    template_instance: string_or_null
+    card_source: string
+    notes: string
+    archival_validity: enum
+    analytical_credibility: enum
+    evidence_stage: enum
+    event_date: date_or_range
+    document_date: date_or_range
+    publication_date: date_or_range
+    assertion_date: date_or_range
+    date_relation: enum
+
+allowed_values:
+  status:
+    - draft
+    - review
+    - stable
+    - superseded
+  chapters:
+    - Introduction
+    - Ch1
+    - Deleted Ch2 context
+    - Ch3
+    - Ch4
+    - Ch5
+    - Ch6
+    - Ch7
+    - Epilogue
+  chapter_aliases:
+    "0": Introduction
+    "1": Ch1
+    "2": Deleted Ch2 context
+    "3": Ch3
+    "4": Ch4
+    "5": Ch5
+    "6": Ch6
+    "7": Ch7
+    "8": Epilogue
+  registers:
+    - somatic
+    - institutional
+    - carceral
+    - currency
+    - extraction
+    - surveillance
+  claim_type:
+    - interpretive
+    - correction
+    - editorial_control
+    - integration
+    - fact
+    - attribution
+    - dating
+    - romanization
+    - narrative
+    - concept
+  strength:
+    - weak
+    - medium
+    - strong
+    - unknown
+  risk_level:
+    - low
+    - medium
+    - high
+    - critical
+  original_lang:
+    - ja
+    - ko
+    - hanja
+    - mixed
+    - en
+  evidence_type:
+    - primary_quote
+    - primary_paraphrase
+    - secondary_synthesis
+    - analytical_finding
+    - negative_finding
+    - friction
+  citation_status:
+    - unverified
+    - report_verified
+    - source_verified
+    - print_ready
+  archival_validity:
+    - rock_solid
+    - well_attested
+    - cited
+    - unverified
+    - disputed
+    - unknown
+  analytical_credibility:
+    - direct_evidence
+    - performative_evidence
+    - circumstantial
+    - tangential
+    - contradictory
+    - unknown
+  date_relation:
+    - contemporaneous
+    - retrospective
+    - later_codification
+    - backdated_claim
+    - uncertain
+  evidence_stage:
+    - identified
+    - collected
+    - processed
+    - reviewed
+    - manuscript_ready
+    - produced
+    - retired
+
+linked_card_fields:
+  allowed:
+    - cites
+    - related
+    - contradicts
+    - refutes
+    - supersedes
+    - complicates
+  forbidden:
+    - cited_by
+    - cited_in
+    - causal_successors
+
+type_fields:
+  source_snippet:
+    required:
+      source_id: string
+      original_lang: enum
+      extraction_date: date
+      extraction_verified: boolean
+      original_snippet: string
+      translation_or_summary: string
+    optional:
+      logseq_file: string
+      page_or_line: string
+      source_locator: string
+      report_files: list
+      claim_ids: list
+      entity_ids: list
+      term_ids: list
+      provenance_report: string
+      source_query: string
+      source_ids: list
+      arc_rationale: string
+      strength: enum
+      warning_flags: list
+      evidence_role: string
+      evidence_type: enum
+      citation_status: enum
+      risk_level: enum
+      friction_notes: string
+  idea:
+    required:
+      register: list
+    optional:
+      term_id: string
+      canonical_form: string
+      term_variants: list
+      romanization: string
+      parent_idea: string
+      sub_ideas: list
+      cautions: string
+  claim:
+    required:
+      claim_text: string
+      claim_type: enum
+      strength: enum
+      risk_level: enum
+    optional:
+      depends_on: list
+      evidence_bindings: list
+      integration_target: string
+      ticket_action: string
+      matrix_row_id: string
+  entity:
+    required:
+      entity_id: string
+      entity_subtype: string
+      canonical_label: string
+      role_in_book: string
+    optional:
+      romanization_primary: string
+      romanization_variants: list
+      korean_reading: string
+      dates: string
+      chapters_appears: list
+      correction_history: string
+      cautions: string
+  question:
+    required:
+      question_text: string
+      question_status: enum
+      opened_date: date
+      priority: enum
+    optional:
+      closed_date: date_or_null
+      candidate_evidence: list
+      blocking: list
+  synthesis:
+    required:
+      synthesis_text: string
+      inputs: list
+      register: list
+      strength: enum
+    optional:
+      output_claims: list
+      derived_from_reports: list
+      evidence_bindings: list
+  bridge:
+    required:
+      from_chapter: chapter
+      to_chapter: chapter
+      bridge_text: string
+      register: list
+    optional:
+      upstream_claims: list
+      downstream_claims: list
+      informed_by_reports: list
+  counterargument:
+    required:
+      position_text: string
+      position_status: enum
+    optional:
+      position_holders: list
+      historiographical_tradition: string
+      refuting_synthesis: list
+      refuting_snippets: list
+      informed_by_reports: list
+  timeline:
+    required:
+      event_label: string
+      date: string
+      date_precision: enum
+      sequence_id: string
+      sequence_order: integer
+    optional:
+      date_end: string
+      causal_predecessors: list
+      evidence_cards: list
+  place:
+    required:
+      place_id: string
+      place_label: string
+      spatial_argument: string
+      register: list
+    optional:
+      geographic_location: string
+      occupants: list
+      associated_events: list
+  moc:
+    required:
+      moc_scope: string
+      moc_level: enum
+      child_cards: list
+    optional:
+      parent_moc: string
+      max_children_warning: integer
+  scaffold:
+    required:
+      scaffold_text: string
+      structural_pattern: string
+      output_chapter_section: string
+    optional:
+      sub_arguments: list
+      feeding_synthesis: list
+      informed_by_reports: list
+
+type_allowed_values:
+  question_status:
+    - open
+    - partially_answered
+    - closed
+  priority:
+    - low
+    - medium
+    - high
+  counterargument_status:
+    - active
+    - refuted
+    - nuanced
+    - partially_addressed
+  date_precision:
+    - day
+    - month
+    - year
+    - range
+  moc_level:
+    - cluster
+    - chapter
+    - book
+
+template_stubs:
+  diary_collision:
+    aggregator_card_type: synthesis
+    required_components:
+      - role: anchor
+        card_type: timeline
+        cardinality: exactly_one
+      - role: diary_voice
+        card_type: source_snippet
+        cardinality: two_or_more
+      - role: synthesis
+        card_type: synthesis
+        cardinality: exactly_one
+  spatial_argument:
+    aggregator_card_type: synthesis
+    required_components:
+      - role: place
+        card_type: place
+        cardinality: exactly_one
+      - role: idea
+        card_type: idea
+        cardinality: exactly_one
+      - role: synthesis
+        card_type: synthesis
+        cardinality: exactly_one
+  counterargument_refutation:
+    aggregator_card_type: synthesis
+    required_components:
+      - role: position
+        card_type: counterargument
+        cardinality: exactly_one
+      - role: refuting_evidence
+        card_type: source_snippet
+        cardinality: two_or_more
+      - role: synthesis
+        card_type: synthesis
+        cardinality: exactly_one
+  vocabulary_evolution:
+    aggregator_card_type: synthesis
+    required_components:
+      - role: sequence
+        card_type: timeline
+        cardinality: one_or_more
+      - role: evidence
+        card_type: source_snippet
+        cardinality: three_or_more
+      - role: synthesis
+        card_type: synthesis
+        cardinality: exactly_one
+  three_lens_reading:
+    aggregator_card_type: claim
+    required_components:
+      - role: source
+        card_type: source_snippet
+        cardinality: exactly_one
+      - role: lens_synthesis
+        card_type: synthesis
+        cardinality: three_or_more
+      - role: aggregate
+        card_type: claim
+        cardinality: exactly_one
+  phase_genealogy:
+    aggregator_card_type: synthesis
+    required_components:
+      - role: phase_idea
+        card_type: idea
+        cardinality: exactly_one
+      - role: sequence
+        card_type: timeline
+        cardinality: three_or_more
+      - role: synthesis
+        card_type: synthesis
+        cardinality: exactly_one

@@ -1,0 +1,1857 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-05-07T21:25:42+00:00",
+  "summary": {
+    "cards": 5,
+    "cards_by_type": {
+      "claim": 1,
+      "source_snippet": 3,
+      "synthesis": 1
+    },
+    "source_snippets": 3,
+    "templates": 0,
+    "tickets": 0
+  },
+  "cards": [
+    {
+      "card_id": "claim:template_core_argument",
+      "card_type": "claim",
+      "title": "Template core argument",
+      "status": "stable",
+      "path": "cards/claim/claim.template_core_argument.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "method"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3",
+          "synthesis:template_evidence_synthesis"
+        ],
+        "incoming": [
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 4,
+      "outgoing_link_count": 4,
+      "metadata": {
+        "id": "claim:template_core_argument",
+        "card_type": "claim",
+        "title": "Template core argument",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "method"
+        ],
+        "linked_cards": {
+          "cites": [
+            "snippet:template_primary_anchor_1",
+            "snippet:template_primary_anchor_2",
+            "snippet:template_primary_anchor_3"
+          ],
+          "related": [
+            "synthesis:template_evidence_synthesis"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "claim_text": "Three verified source anchors can support a starter claim in the dashboard harness.\n",
+        "claim_type": "interpretive",
+        "strength": "strong",
+        "risk_level": "low",
+        "integration_target": "Ch1 sample",
+        "matrix_row_id": "claim:template_core_argument",
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Claim\n\nThis sample claim demonstrates the self-audit readiness flow. Replace it with a real project claim.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "cites": [
+            {
+              "raw": "snippet:template_primary_anchor_1",
+              "alias": "snippet:template_primary_anchor_1",
+              "canonical": "snippet:template_primary_anchor_1",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_2",
+              "alias": "snippet:template_primary_anchor_2",
+              "canonical": "snippet:template_primary_anchor_2",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_3",
+              "alias": "snippet:template_primary_anchor_3",
+              "canonical": "snippet:template_primary_anchor_3",
+              "status": "canonical"
+            }
+          ],
+          "related": [
+            {
+              "raw": "synthesis:template_evidence_synthesis",
+              "alias": "synthesis:template_evidence_synthesis",
+              "canonical": "synthesis:template_evidence_synthesis",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    {
+      "card_id": "snippet:template_primary_anchor_1",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 1",
+      "status": "stable",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_1.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument"
+        ],
+        "incoming": [
+          "claim:template_core_argument",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 2,
+      "outgoing_link_count": 1,
+      "metadata": {
+        "id": "snippet:template_primary_anchor_1",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 1",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "evidence"
+        ],
+        "linked_cards": {
+          "cites": [],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "source_id": "source:demo_archive",
+        "original_lang": "en",
+        "page_or_line": "Template report, anchor 1",
+        "source_locator": "Template_Report.md, anchor 1",
+        "extraction_date": "2026-05-01",
+        "extraction_verified": true,
+        "original_snippet": "Template source anchor 1.\n",
+        "translation_or_summary": "Sample source anchor 1 supports the template's starter claim.\n",
+        "notes": "Replace with a real quotation or source paraphrase.\n",
+        "evidence_type": "primary_quote",
+        "citation_status": "source_verified",
+        "risk_level": "low",
+        "evidence_role": "sample_anchor",
+        "friction_notes": "Template evidence only.",
+        "provenance_report": "Template_Report.md",
+        "source_query": "template source anchor 1",
+        "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+        "strength": "strong",
+        "warning_flags": [],
+        "claim_ids": [
+          "claim:template_core_argument"
+        ],
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Annotation\n\nThis sample card exists so the template can demonstrate validated source evidence without importing any real project data.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    {
+      "card_id": "snippet:template_primary_anchor_2",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 2",
+      "status": "stable",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_2.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument"
+        ],
+        "incoming": [
+          "claim:template_core_argument",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 2,
+      "outgoing_link_count": 1,
+      "metadata": {
+        "id": "snippet:template_primary_anchor_2",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 2",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "evidence"
+        ],
+        "linked_cards": {
+          "cites": [],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "source_id": "source:demo_archive",
+        "original_lang": "en",
+        "page_or_line": "Template report, anchor 2",
+        "source_locator": "Template_Report.md, anchor 2",
+        "extraction_date": "2026-05-01",
+        "extraction_verified": true,
+        "original_snippet": "Template source anchor 2.\n",
+        "translation_or_summary": "Sample source anchor 2 supports the template's starter claim.\n",
+        "notes": "Replace with a real quotation or source paraphrase.\n",
+        "evidence_type": "primary_quote",
+        "citation_status": "source_verified",
+        "risk_level": "low",
+        "evidence_role": "sample_anchor",
+        "friction_notes": "Template evidence only.",
+        "provenance_report": "Template_Report.md",
+        "source_query": "template source anchor 2",
+        "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+        "strength": "strong",
+        "warning_flags": [],
+        "claim_ids": [
+          "claim:template_core_argument"
+        ],
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Annotation\n\nThis sample card exists so the template can demonstrate validated source evidence without importing any real project data.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    {
+      "card_id": "snippet:template_primary_anchor_3",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 3",
+      "status": "stable",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_3.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument"
+        ],
+        "incoming": [
+          "claim:template_core_argument",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 2,
+      "outgoing_link_count": 1,
+      "metadata": {
+        "id": "snippet:template_primary_anchor_3",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 3",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "evidence"
+        ],
+        "linked_cards": {
+          "cites": [],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "source_id": "source:demo_archive",
+        "original_lang": "en",
+        "page_or_line": "Template report, anchor 3",
+        "source_locator": "Template_Report.md, anchor 3",
+        "extraction_date": "2026-05-01",
+        "extraction_verified": true,
+        "original_snippet": "Template source anchor 3.\n",
+        "translation_or_summary": "Sample source anchor 3 supports the template's starter claim.\n",
+        "notes": "Replace with a real quotation or source paraphrase.\n",
+        "evidence_type": "primary_quote",
+        "citation_status": "source_verified",
+        "risk_level": "low",
+        "evidence_role": "sample_anchor",
+        "friction_notes": "Template evidence only.",
+        "provenance_report": "Template_Report.md",
+        "source_query": "template source anchor 3",
+        "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+        "strength": "strong",
+        "warning_flags": [],
+        "claim_ids": [
+          "claim:template_core_argument"
+        ],
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Annotation\n\nThis sample card exists so the template can demonstrate validated source evidence without importing any real project data.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    {
+      "card_id": "synthesis:template_evidence_synthesis",
+      "card_type": "synthesis",
+      "title": "Template evidence synthesis",
+      "status": "stable",
+      "path": "cards/synthesis/synthesis.template_evidence_synthesis.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "synthesis"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument",
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3"
+        ],
+        "incoming": [
+          "claim:template_core_argument"
+        ]
+      },
+      "incoming_link_count": 1,
+      "outgoing_link_count": 4,
+      "metadata": {
+        "id": "synthesis:template_evidence_synthesis",
+        "card_type": "synthesis",
+        "title": "Template evidence synthesis",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "synthesis"
+        ],
+        "linked_cards": {
+          "cites": [
+            "snippet:template_primary_anchor_1",
+            "snippet:template_primary_anchor_2",
+            "snippet:template_primary_anchor_3"
+          ],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "synthesis_text": "The three sample anchors form a minimal evidence cluster for the starter claim.\n",
+        "inputs": [
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3"
+        ],
+        "register": [
+          "institutional"
+        ],
+        "strength": "strong",
+        "output_claims": [
+          "claim:template_core_argument"
+        ],
+        "derived_from_reports": [
+          "Template_Report.md"
+        ],
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Synthesis\n\nThis sample synthesis prevents the starter corpus from being source-rich but synthesis-empty.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "cites": [
+            {
+              "raw": "snippet:template_primary_anchor_1",
+              "alias": "snippet:template_primary_anchor_1",
+              "canonical": "snippet:template_primary_anchor_1",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_2",
+              "alias": "snippet:template_primary_anchor_2",
+              "canonical": "snippet:template_primary_anchor_2",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_3",
+              "alias": "snippet:template_primary_anchor_3",
+              "canonical": "snippet:template_primary_anchor_3",
+              "status": "canonical"
+            }
+          ],
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "medium",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    }
+  ],
+  "cards_by_id": {
+    "claim:template_core_argument": {
+      "card_id": "claim:template_core_argument",
+      "card_type": "claim",
+      "title": "Template core argument",
+      "status": "stable",
+      "path": "cards/claim/claim.template_core_argument.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "method"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3",
+          "synthesis:template_evidence_synthesis"
+        ],
+        "incoming": [
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 4,
+      "outgoing_link_count": 4,
+      "metadata": {
+        "id": "claim:template_core_argument",
+        "card_type": "claim",
+        "title": "Template core argument",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "method"
+        ],
+        "linked_cards": {
+          "cites": [
+            "snippet:template_primary_anchor_1",
+            "snippet:template_primary_anchor_2",
+            "snippet:template_primary_anchor_3"
+          ],
+          "related": [
+            "synthesis:template_evidence_synthesis"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "claim_text": "Three verified source anchors can support a starter claim in the dashboard harness.\n",
+        "claim_type": "interpretive",
+        "strength": "strong",
+        "risk_level": "low",
+        "integration_target": "Ch1 sample",
+        "matrix_row_id": "claim:template_core_argument",
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Claim\n\nThis sample claim demonstrates the self-audit readiness flow. Replace it with a real project claim.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "cites": [
+            {
+              "raw": "snippet:template_primary_anchor_1",
+              "alias": "snippet:template_primary_anchor_1",
+              "canonical": "snippet:template_primary_anchor_1",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_2",
+              "alias": "snippet:template_primary_anchor_2",
+              "canonical": "snippet:template_primary_anchor_2",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_3",
+              "alias": "snippet:template_primary_anchor_3",
+              "canonical": "snippet:template_primary_anchor_3",
+              "status": "canonical"
+            }
+          ],
+          "related": [
+            {
+              "raw": "synthesis:template_evidence_synthesis",
+              "alias": "synthesis:template_evidence_synthesis",
+              "canonical": "synthesis:template_evidence_synthesis",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "snippet:template_primary_anchor_1": {
+      "card_id": "snippet:template_primary_anchor_1",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 1",
+      "status": "stable",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_1.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument"
+        ],
+        "incoming": [
+          "claim:template_core_argument",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 2,
+      "outgoing_link_count": 1,
+      "metadata": {
+        "id": "snippet:template_primary_anchor_1",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 1",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "evidence"
+        ],
+        "linked_cards": {
+          "cites": [],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "source_id": "source:demo_archive",
+        "original_lang": "en",
+        "page_or_line": "Template report, anchor 1",
+        "source_locator": "Template_Report.md, anchor 1",
+        "extraction_date": "2026-05-01",
+        "extraction_verified": true,
+        "original_snippet": "Template source anchor 1.\n",
+        "translation_or_summary": "Sample source anchor 1 supports the template's starter claim.\n",
+        "notes": "Replace with a real quotation or source paraphrase.\n",
+        "evidence_type": "primary_quote",
+        "citation_status": "source_verified",
+        "risk_level": "low",
+        "evidence_role": "sample_anchor",
+        "friction_notes": "Template evidence only.",
+        "provenance_report": "Template_Report.md",
+        "source_query": "template source anchor 1",
+        "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+        "strength": "strong",
+        "warning_flags": [],
+        "claim_ids": [
+          "claim:template_core_argument"
+        ],
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Annotation\n\nThis sample card exists so the template can demonstrate validated source evidence without importing any real project data.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "snippet:template_primary_anchor_2": {
+      "card_id": "snippet:template_primary_anchor_2",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 2",
+      "status": "stable",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_2.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument"
+        ],
+        "incoming": [
+          "claim:template_core_argument",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 2,
+      "outgoing_link_count": 1,
+      "metadata": {
+        "id": "snippet:template_primary_anchor_2",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 2",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "evidence"
+        ],
+        "linked_cards": {
+          "cites": [],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "source_id": "source:demo_archive",
+        "original_lang": "en",
+        "page_or_line": "Template report, anchor 2",
+        "source_locator": "Template_Report.md, anchor 2",
+        "extraction_date": "2026-05-01",
+        "extraction_verified": true,
+        "original_snippet": "Template source anchor 2.\n",
+        "translation_or_summary": "Sample source anchor 2 supports the template's starter claim.\n",
+        "notes": "Replace with a real quotation or source paraphrase.\n",
+        "evidence_type": "primary_quote",
+        "citation_status": "source_verified",
+        "risk_level": "low",
+        "evidence_role": "sample_anchor",
+        "friction_notes": "Template evidence only.",
+        "provenance_report": "Template_Report.md",
+        "source_query": "template source anchor 2",
+        "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+        "strength": "strong",
+        "warning_flags": [],
+        "claim_ids": [
+          "claim:template_core_argument"
+        ],
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Annotation\n\nThis sample card exists so the template can demonstrate validated source evidence without importing any real project data.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "snippet:template_primary_anchor_3": {
+      "card_id": "snippet:template_primary_anchor_3",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 3",
+      "status": "stable",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_3.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument"
+        ],
+        "incoming": [
+          "claim:template_core_argument",
+          "synthesis:template_evidence_synthesis"
+        ]
+      },
+      "incoming_link_count": 2,
+      "outgoing_link_count": 1,
+      "metadata": {
+        "id": "snippet:template_primary_anchor_3",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 3",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "evidence"
+        ],
+        "linked_cards": {
+          "cites": [],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "source_id": "source:demo_archive",
+        "original_lang": "en",
+        "page_or_line": "Template report, anchor 3",
+        "source_locator": "Template_Report.md, anchor 3",
+        "extraction_date": "2026-05-01",
+        "extraction_verified": true,
+        "original_snippet": "Template source anchor 3.\n",
+        "translation_or_summary": "Sample source anchor 3 supports the template's starter claim.\n",
+        "notes": "Replace with a real quotation or source paraphrase.\n",
+        "evidence_type": "primary_quote",
+        "citation_status": "source_verified",
+        "risk_level": "low",
+        "evidence_role": "sample_anchor",
+        "friction_notes": "Template evidence only.",
+        "provenance_report": "Template_Report.md",
+        "source_query": "template source anchor 3",
+        "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+        "strength": "strong",
+        "warning_flags": [],
+        "claim_ids": [
+          "claim:template_core_argument"
+        ],
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Annotation\n\nThis sample card exists so the template can demonstrate validated source evidence without importing any real project data.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "synthesis:template_evidence_synthesis": {
+      "card_id": "synthesis:template_evidence_synthesis",
+      "card_type": "synthesis",
+      "title": "Template evidence synthesis",
+      "status": "stable",
+      "path": "cards/synthesis/synthesis.template_evidence_synthesis.md",
+      "created": "2026-05-01",
+      "updated": "2026-05-01",
+      "chapters": [
+        "Ch1"
+      ],
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "tags": [
+        "ch:1",
+        "synthesis"
+      ],
+      "template_instance": "",
+      "linked_cards": {
+        "outgoing": [
+          "claim:template_core_argument",
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3"
+        ],
+        "incoming": [
+          "claim:template_core_argument"
+        ]
+      },
+      "incoming_link_count": 1,
+      "outgoing_link_count": 4,
+      "metadata": {
+        "id": "synthesis:template_evidence_synthesis",
+        "card_type": "synthesis",
+        "title": "Template evidence synthesis",
+        "created": "2026-05-01",
+        "updated": "2026-05-01",
+        "status": "stable",
+        "chapter_relevance": [
+          "Ch1"
+        ],
+        "arc_ids": [
+          "arc:demo_argument"
+        ],
+        "tags": [
+          "ch:1",
+          "synthesis"
+        ],
+        "linked_cards": {
+          "cites": [
+            "snippet:template_primary_anchor_1",
+            "snippet:template_primary_anchor_2",
+            "snippet:template_primary_anchor_3"
+          ],
+          "related": [
+            "claim:template_core_argument"
+          ],
+          "contradicts": [],
+          "supersedes": []
+        },
+        "template_instance": null,
+        "synthesis_text": "The three sample anchors form a minimal evidence cluster for the starter claim.\n",
+        "inputs": [
+          "snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_3"
+        ],
+        "register": [
+          "institutional"
+        ],
+        "strength": "strong",
+        "output_claims": [
+          "claim:template_core_argument"
+        ],
+        "derived_from_reports": [
+          "Template_Report.md"
+        ],
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "evidence_stage": "manuscript_ready"
+      },
+      "body": "## Synthesis\n\nThis sample synthesis prevents the starter corpus from being source-rich but synthesis-empty.",
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "cites": [
+            {
+              "raw": "snippet:template_primary_anchor_1",
+              "alias": "snippet:template_primary_anchor_1",
+              "canonical": "snippet:template_primary_anchor_1",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_2",
+              "alias": "snippet:template_primary_anchor_2",
+              "canonical": "snippet:template_primary_anchor_2",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_3",
+              "alias": "snippet:template_primary_anchor_3",
+              "canonical": "snippet:template_primary_anchor_3",
+              "status": "canonical"
+            }
+          ],
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "medium",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    }
+  },
+  "reverse_links": {
+    "claim:template_core_argument": [
+      "snippet:template_primary_anchor_1",
+      "snippet:template_primary_anchor_2",
+      "snippet:template_primary_anchor_3",
+      "synthesis:template_evidence_synthesis"
+    ],
+    "snippet:template_primary_anchor_1": [
+      "claim:template_core_argument",
+      "synthesis:template_evidence_synthesis"
+    ],
+    "snippet:template_primary_anchor_2": [
+      "claim:template_core_argument",
+      "synthesis:template_evidence_synthesis"
+    ],
+    "snippet:template_primary_anchor_3": [
+      "claim:template_core_argument",
+      "synthesis:template_evidence_synthesis"
+    ],
+    "synthesis:template_evidence_synthesis": [
+      "claim:template_core_argument"
+    ]
+  },
+  "source_snippets": [
+    {
+      "snippet_id": "snippet:template_primary_anchor_1",
+      "card_id": "snippet:template_primary_anchor_1",
+      "title": "Template primary anchor 1",
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "claim_ids": [
+        "claim:template_core_argument"
+      ],
+      "source_ids": [
+        "source:demo_archive"
+      ],
+      "report_files": [],
+      "entity_ids": [],
+      "term_ids": [],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "chapters": [
+        "Ch1"
+      ],
+      "source_locator": "Template_Report.md, anchor 1",
+      "language": "en",
+      "original_snippet": "Template source anchor 1.",
+      "translation_or_summary": "Sample source anchor 1 supports the template's starter claim.",
+      "evidence_role": "sample_anchor",
+      "evidence_type": "primary_quote",
+      "citation_status": "source_verified",
+      "risk_level": "low",
+      "friction_notes": "Template evidence only.",
+      "notes": "Replace with a real quotation or source paraphrase.",
+      "source_query": "template source anchor 1",
+      "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+      "strength": "strong",
+      "warning_flags": [],
+      "promotion_gate": {
+        "ready": true,
+        "promoted": true,
+        "missing": [],
+        "warnings": []
+      },
+      "card_status": "stable",
+      "card_path": "cards/source_snippet/snippet.template_primary_anchor_1.md",
+      "provenance_report": "Template_Report.md",
+      "source_layer": "cards"
+    },
+    {
+      "snippet_id": "snippet:template_primary_anchor_2",
+      "card_id": "snippet:template_primary_anchor_2",
+      "title": "Template primary anchor 2",
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "claim_ids": [
+        "claim:template_core_argument"
+      ],
+      "source_ids": [
+        "source:demo_archive"
+      ],
+      "report_files": [],
+      "entity_ids": [],
+      "term_ids": [],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "chapters": [
+        "Ch1"
+      ],
+      "source_locator": "Template_Report.md, anchor 2",
+      "language": "en",
+      "original_snippet": "Template source anchor 2.",
+      "translation_or_summary": "Sample source anchor 2 supports the template's starter claim.",
+      "evidence_role": "sample_anchor",
+      "evidence_type": "primary_quote",
+      "citation_status": "source_verified",
+      "risk_level": "low",
+      "friction_notes": "Template evidence only.",
+      "notes": "Replace with a real quotation or source paraphrase.",
+      "source_query": "template source anchor 2",
+      "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+      "strength": "strong",
+      "warning_flags": [],
+      "promotion_gate": {
+        "ready": true,
+        "promoted": true,
+        "missing": [],
+        "warnings": []
+      },
+      "card_status": "stable",
+      "card_path": "cards/source_snippet/snippet.template_primary_anchor_2.md",
+      "provenance_report": "Template_Report.md",
+      "source_layer": "cards"
+    },
+    {
+      "snippet_id": "snippet:template_primary_anchor_3",
+      "card_id": "snippet:template_primary_anchor_3",
+      "title": "Template primary anchor 3",
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "claim_ids": [
+        "claim:template_core_argument"
+      ],
+      "source_ids": [
+        "source:demo_archive"
+      ],
+      "report_files": [],
+      "entity_ids": [],
+      "term_ids": [],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "chapters": [
+        "Ch1"
+      ],
+      "source_locator": "Template_Report.md, anchor 3",
+      "language": "en",
+      "original_snippet": "Template source anchor 3.",
+      "translation_or_summary": "Sample source anchor 3 supports the template's starter claim.",
+      "evidence_role": "sample_anchor",
+      "evidence_type": "primary_quote",
+      "citation_status": "source_verified",
+      "risk_level": "low",
+      "friction_notes": "Template evidence only.",
+      "notes": "Replace with a real quotation or source paraphrase.",
+      "source_query": "template source anchor 3",
+      "arc_rationale": "Demonstrates source-to-claim readiness wiring in the dashboard.",
+      "strength": "strong",
+      "warning_flags": [],
+      "promotion_gate": {
+        "ready": true,
+        "promoted": true,
+        "missing": [],
+        "warnings": []
+      },
+      "card_status": "stable",
+      "card_path": "cards/source_snippet/snippet.template_primary_anchor_3.md",
+      "provenance_report": "Template_Report.md",
+      "source_layer": "cards"
+    }
+  ],
+  "templates": {},
+  "diagnostics": {
+    "synthesis_ratio": {
+      "chapters": {
+        "Ch1": {
+          "source_snippets": 3,
+          "synthesis": 1,
+          "ratio": 3.0
+        }
+      },
+      "arcs": {
+        "arc:demo_argument": {
+          "source_snippets": 3,
+          "synthesis": 1,
+          "ratio": 3.0
+        }
+      }
+    },
+    "orphans": [],
+    "moc_warnings": [],
+    "promotion_gate": {
+      "ready": 3,
+      "blocked": 0,
+      "blocked_cards": []
+    },
+    "schema_version": 1,
+    "generated_at_utc": "2026-05-07T21:25:42+00:00",
+    "summary": {
+      "card_count": 5,
+      "claim_count": 1,
+      "active_conflict_count": 0,
+      "chronology_warning_count": 0,
+      "unresolved_link_count": 0,
+      "unresolved_link_target_count": 0,
+      "unresolved_link_duplicate_count": 0,
+      "argument_readiness_breakdown": {
+        "blocked": 0,
+        "review": 0,
+        "usable": 0,
+        "strong": 1
+      }
+    },
+    "cards": {
+      "claim:template_core_argument": {
+        "alias_resolution": {
+          "incoming_aliases": [],
+          "resolved_outgoing_links": {
+            "cites": [
+              {
+                "raw": "snippet:template_primary_anchor_1",
+                "alias": "snippet:template_primary_anchor_1",
+                "canonical": "snippet:template_primary_anchor_1",
+                "status": "canonical"
+              },
+              {
+                "raw": "snippet:template_primary_anchor_2",
+                "alias": "snippet:template_primary_anchor_2",
+                "canonical": "snippet:template_primary_anchor_2",
+                "status": "canonical"
+              },
+              {
+                "raw": "snippet:template_primary_anchor_3",
+                "alias": "snippet:template_primary_anchor_3",
+                "canonical": "snippet:template_primary_anchor_3",
+                "status": "canonical"
+              }
+            ],
+            "related": [
+              {
+                "raw": "synthesis:template_evidence_synthesis",
+                "alias": "synthesis:template_evidence_synthesis",
+                "canonical": "synthesis:template_evidence_synthesis",
+                "status": "canonical"
+              }
+            ]
+          },
+          "unresolved_outgoing_links": []
+        },
+        "reliability_profile": {
+          "archival_validity": "well_attested",
+          "analytical_credibility": "direct_evidence",
+          "prose_risk": "low",
+          "missing_axes": []
+        },
+        "conflict_profile": {
+          "active_conflict_degree": "none",
+          "conflict_severity": "none",
+          "active_conflicts": [],
+          "refuted_by": [],
+          "superseded_by": [],
+          "complicated_by": [],
+          "is_refuter": false,
+          "is_superseder": false
+        },
+        "chronology_profile": {
+          "event_date": "",
+          "document_date": "",
+          "publication_date": "",
+          "assertion_date": "",
+          "date_relation": "",
+          "warnings": []
+        },
+        "evidence_stage": "manuscript_ready",
+        "evidence_stage_inferred": false
+      },
+      "snippet:template_primary_anchor_1": {
+        "alias_resolution": {
+          "incoming_aliases": [],
+          "resolved_outgoing_links": {
+            "related": [
+              {
+                "raw": "claim:template_core_argument",
+                "alias": "claim:template_core_argument",
+                "canonical": "claim:template_core_argument",
+                "status": "canonical"
+              }
+            ]
+          },
+          "unresolved_outgoing_links": []
+        },
+        "reliability_profile": {
+          "archival_validity": "rock_solid",
+          "analytical_credibility": "direct_evidence",
+          "prose_risk": "low",
+          "missing_axes": []
+        },
+        "conflict_profile": {
+          "active_conflict_degree": "none",
+          "conflict_severity": "none",
+          "active_conflicts": [],
+          "refuted_by": [],
+          "superseded_by": [],
+          "complicated_by": [],
+          "is_refuter": false,
+          "is_superseder": false
+        },
+        "chronology_profile": {
+          "event_date": "",
+          "document_date": "",
+          "publication_date": "",
+          "assertion_date": "",
+          "date_relation": "",
+          "warnings": []
+        },
+        "evidence_stage": "manuscript_ready",
+        "evidence_stage_inferred": false
+      },
+      "snippet:template_primary_anchor_2": {
+        "alias_resolution": {
+          "incoming_aliases": [],
+          "resolved_outgoing_links": {
+            "related": [
+              {
+                "raw": "claim:template_core_argument",
+                "alias": "claim:template_core_argument",
+                "canonical": "claim:template_core_argument",
+                "status": "canonical"
+              }
+            ]
+          },
+          "unresolved_outgoing_links": []
+        },
+        "reliability_profile": {
+          "archival_validity": "rock_solid",
+          "analytical_credibility": "direct_evidence",
+          "prose_risk": "low",
+          "missing_axes": []
+        },
+        "conflict_profile": {
+          "active_conflict_degree": "none",
+          "conflict_severity": "none",
+          "active_conflicts": [],
+          "refuted_by": [],
+          "superseded_by": [],
+          "complicated_by": [],
+          "is_refuter": false,
+          "is_superseder": false
+        },
+        "chronology_profile": {
+          "event_date": "",
+          "document_date": "",
+          "publication_date": "",
+          "assertion_date": "",
+          "date_relation": "",
+          "warnings": []
+        },
+        "evidence_stage": "manuscript_ready",
+        "evidence_stage_inferred": false
+      },
+      "snippet:template_primary_anchor_3": {
+        "alias_resolution": {
+          "incoming_aliases": [],
+          "resolved_outgoing_links": {
+            "related": [
+              {
+                "raw": "claim:template_core_argument",
+                "alias": "claim:template_core_argument",
+                "canonical": "claim:template_core_argument",
+                "status": "canonical"
+              }
+            ]
+          },
+          "unresolved_outgoing_links": []
+        },
+        "reliability_profile": {
+          "archival_validity": "rock_solid",
+          "analytical_credibility": "direct_evidence",
+          "prose_risk": "low",
+          "missing_axes": []
+        },
+        "conflict_profile": {
+          "active_conflict_degree": "none",
+          "conflict_severity": "none",
+          "active_conflicts": [],
+          "refuted_by": [],
+          "superseded_by": [],
+          "complicated_by": [],
+          "is_refuter": false,
+          "is_superseder": false
+        },
+        "chronology_profile": {
+          "event_date": "",
+          "document_date": "",
+          "publication_date": "",
+          "assertion_date": "",
+          "date_relation": "",
+          "warnings": []
+        },
+        "evidence_stage": "manuscript_ready",
+        "evidence_stage_inferred": false
+      },
+      "synthesis:template_evidence_synthesis": {
+        "alias_resolution": {
+          "incoming_aliases": [],
+          "resolved_outgoing_links": {
+            "cites": [
+              {
+                "raw": "snippet:template_primary_anchor_1",
+                "alias": "snippet:template_primary_anchor_1",
+                "canonical": "snippet:template_primary_anchor_1",
+                "status": "canonical"
+              },
+              {
+                "raw": "snippet:template_primary_anchor_2",
+                "alias": "snippet:template_primary_anchor_2",
+                "canonical": "snippet:template_primary_anchor_2",
+                "status": "canonical"
+              },
+              {
+                "raw": "snippet:template_primary_anchor_3",
+                "alias": "snippet:template_primary_anchor_3",
+                "canonical": "snippet:template_primary_anchor_3",
+                "status": "canonical"
+              }
+            ],
+            "related": [
+              {
+                "raw": "claim:template_core_argument",
+                "alias": "claim:template_core_argument",
+                "canonical": "claim:template_core_argument",
+                "status": "canonical"
+              }
+            ]
+          },
+          "unresolved_outgoing_links": []
+        },
+        "reliability_profile": {
+          "archival_validity": "well_attested",
+          "analytical_credibility": "direct_evidence",
+          "prose_risk": "medium",
+          "missing_axes": []
+        },
+        "conflict_profile": {
+          "active_conflict_degree": "none",
+          "conflict_severity": "none",
+          "active_conflicts": [],
+          "refuted_by": [],
+          "superseded_by": [],
+          "complicated_by": [],
+          "is_refuter": false,
+          "is_superseder": false
+        },
+        "chronology_profile": {
+          "event_date": "",
+          "document_date": "",
+          "publication_date": "",
+          "assertion_date": "",
+          "date_relation": "",
+          "warnings": []
+        },
+        "evidence_stage": "manuscript_ready",
+        "evidence_stage_inferred": false
+      }
+    },
+    "claims": {
+      "claim:template_core_argument": {
+        "evidence_vector": {
+          "primary_quote_count": 3,
+          "primary_paraphrase_count": 0,
+          "secondary_synthesis_count": 0,
+          "source_verified_count": 3,
+          "report_verified_count": 0,
+          "negative_finding_count": 0,
+          "direct_evidence_count": 3,
+          "indirect_evidence_count": 0,
+          "active_conflict_count": 0,
+          "chronology_warning_count": 0,
+          "high_prose_risk_count": 0
+        },
+        "argument_readiness": "strong",
+        "argument_readiness_rationale": "strong: primary_quote_count >= 3 and source_verified_count >= 2",
+        "relation_sources": {
+          "snippet:template_primary_anchor_1": [
+            "claim:template_core_argument -> snippet:template_primary_anchor_1",
+            "snippet:template_primary_anchor_1 -> synthesis:template_evidence_synthesis -> claim:template_core_argument",
+            "snippet:template_primary_anchor_1.claim_ids -> claim:template_core_argument"
+          ],
+          "snippet:template_primary_anchor_2": [
+            "claim:template_core_argument -> snippet:template_primary_anchor_2",
+            "snippet:template_primary_anchor_2 -> synthesis:template_evidence_synthesis -> claim:template_core_argument",
+            "snippet:template_primary_anchor_2.claim_ids -> claim:template_core_argument"
+          ],
+          "snippet:template_primary_anchor_3": [
+            "claim:template_core_argument -> snippet:template_primary_anchor_3",
+            "snippet:template_primary_anchor_3 -> synthesis:template_evidence_synthesis -> claim:template_core_argument",
+            "snippet:template_primary_anchor_3.claim_ids -> claim:template_core_argument"
+          ]
+        },
+        "evidence_bindings_resolved": [
+          {
+            "card_id": "snippet:template_primary_anchor_1",
+            "chronology_use": "unknown",
+            "raw_card_id": "snippet:template_primary_anchor_1",
+            "override_active": false
+          },
+          {
+            "card_id": "snippet:template_primary_anchor_2",
+            "chronology_use": "unknown",
+            "raw_card_id": "snippet:template_primary_anchor_2",
+            "override_active": false
+          },
+          {
+            "card_id": "snippet:template_primary_anchor_3",
+            "chronology_use": "unknown",
+            "raw_card_id": "snippet:template_primary_anchor_3",
+            "override_active": false
+          }
+        ],
+        "chronology_warnings": []
+      }
+    }
+  },
+  "tickets": [],
+  "generated_files": {
+    "cards_index_csv": "cards_index.csv",
+    "cards_tickets_md": "CARDS_TICKETS.md",
+    "cards_tickets_json": "CARDS_TICKETS.json",
+    "cards_by_chapter_csv": "cards_by_chapter.csv",
+    "cards_by_arc_csv": "cards_by_arc.csv",
+    "cards_by_entity_csv": "cards_by_entity.csv",
+    "cards_by_term_csv": "cards_by_term.csv",
+    "report_to_cards_index_json": "indexes/report_to_cards_index.json"
+  }
+}

@@ -1,0 +1,43 @@
+schema_version: 1
+filename_match:
+  - regex: '(Research_(?:R\d|M\d|Marathon|Batch\d+|Task)[^\s`)\]]*\.md)'
+    confidence: high
+round_task_match:
+  - regex: '\b(R\d)\s+Task\s+0?(\d+)\b'
+    confidence: medium
+  - regex: '\bMarathon\s+Task\s+0?(\d+)\b'
+    confidence: medium
+  - regex: '\bM(\d)\s+Task\s+0?(\d+)\b'
+    confidence: medium
+  - regex: '\bBatch\s+(\d+)\s+Task\s+0?(\d+)\b'
+    confidence: medium
+loose_phrases:
+  - regex: '\bthe\s+(synthesis audit|R3/R4 synthesis|gap audit)\b'
+    confidence: low
+loose_phrase_targets:
+  synthesis audit: Research_Marathon_Task90_Synthesis_Audit.md
+  r3/r4 synthesis: R3_R4_Synthesis_Part1_Partial.md
+  gap audit: Round_5_Gap_Audit.md
+intent_keywords:
+  confirms:
+    - confirms
+    - corroborates
+    - verifies
+  contradicts:
+    - contradicts
+    - refutes
+    - overturns
+    - corrects
+  supplements:
+    - supplements
+    - extends
+    - adds to
+  builds_on:
+    - builds on
+    - follows
+    - continues from
+  references:
+    - see
+    - cf.
+    - per
+    - noted in

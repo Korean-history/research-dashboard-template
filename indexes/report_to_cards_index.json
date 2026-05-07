@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "reports": {
+    "Template_Report.md": [
+      {
+        "report_file": "Template_Report.md",
+        "card_id": "snippet:template_primary_anchor_1",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 1",
+        "path": "cards/source_snippet/snippet.template_primary_anchor_1.md",
+        "field": "provenance_report"
+      },
+      {
+        "report_file": "Template_Report.md",
+        "card_id": "snippet:template_primary_anchor_2",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 2",
+        "path": "cards/source_snippet/snippet.template_primary_anchor_2.md",
+        "field": "provenance_report"
+      },
+      {
+        "report_file": "Template_Report.md",
+        "card_id": "snippet:template_primary_anchor_3",
+        "card_type": "source_snippet",
+        "title": "Template primary anchor 3",
+        "path": "cards/source_snippet/snippet.template_primary_anchor_3.md",
+        "field": "provenance_report"
+      },
+      {
+        "report_file": "Template_Report.md",
+        "card_id": "synthesis:template_evidence_synthesis",
+        "card_type": "synthesis",
+        "title": "Template evidence synthesis",
+        "path": "cards/synthesis/synthesis.template_evidence_synthesis.md",
+        "field": "derived_from_reports"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "report_file": "Template_Report.md",
+      "card_id": "snippet:template_primary_anchor_1",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 1",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_1.md",
+      "field": "provenance_report"
+    },
+    {
+      "report_file": "Template_Report.md",
+      "card_id": "snippet:template_primary_anchor_2",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 2",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_2.md",
+      "field": "provenance_report"
+    },
+    {
+      "report_file": "Template_Report.md",
+      "card_id": "snippet:template_primary_anchor_3",
+      "card_type": "source_snippet",
+      "title": "Template primary anchor 3",
+      "path": "cards/source_snippet/snippet.template_primary_anchor_3.md",
+      "field": "provenance_report"
+    },
+    {
+      "report_file": "Template_Report.md",
+      "card_id": "synthesis:template_evidence_synthesis",
+      "card_type": "synthesis",
+      "title": "Template evidence synthesis",
+      "path": "cards/synthesis/synthesis.template_evidence_synthesis.md",
+      "field": "derived_from_reports"
+    }
+  ]
+}

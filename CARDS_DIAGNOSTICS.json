@@ -1,0 +1,351 @@
+{
+  "synthesis_ratio": {
+    "chapters": {
+      "Ch1": {
+        "source_snippets": 3,
+        "synthesis": 1,
+        "ratio": 3.0
+      }
+    },
+    "arcs": {
+      "arc:demo_argument": {
+        "source_snippets": 3,
+        "synthesis": 1,
+        "ratio": 3.0
+      }
+    }
+  },
+  "orphans": [],
+  "moc_warnings": [],
+  "promotion_gate": {
+    "ready": 3,
+    "blocked": 0,
+    "blocked_cards": []
+  },
+  "schema_version": 1,
+  "generated_at_utc": "2026-05-07T21:25:42+00:00",
+  "summary": {
+    "card_count": 5,
+    "claim_count": 1,
+    "active_conflict_count": 0,
+    "chronology_warning_count": 0,
+    "unresolved_link_count": 0,
+    "unresolved_link_target_count": 0,
+    "unresolved_link_duplicate_count": 0,
+    "argument_readiness_breakdown": {
+      "blocked": 0,
+      "review": 0,
+      "usable": 0,
+      "strong": 1
+    }
+  },
+  "cards": {
+    "claim:template_core_argument": {
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "cites": [
+            {
+              "raw": "snippet:template_primary_anchor_1",
+              "alias": "snippet:template_primary_anchor_1",
+              "canonical": "snippet:template_primary_anchor_1",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_2",
+              "alias": "snippet:template_primary_anchor_2",
+              "canonical": "snippet:template_primary_anchor_2",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_3",
+              "alias": "snippet:template_primary_anchor_3",
+              "canonical": "snippet:template_primary_anchor_3",
+              "status": "canonical"
+            }
+          ],
+          "related": [
+            {
+              "raw": "synthesis:template_evidence_synthesis",
+              "alias": "synthesis:template_evidence_synthesis",
+              "canonical": "synthesis:template_evidence_synthesis",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "snippet:template_primary_anchor_1": {
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "snippet:template_primary_anchor_2": {
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "snippet:template_primary_anchor_3": {
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "rock_solid",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "low",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    },
+    "synthesis:template_evidence_synthesis": {
+      "alias_resolution": {
+        "incoming_aliases": [],
+        "resolved_outgoing_links": {
+          "cites": [
+            {
+              "raw": "snippet:template_primary_anchor_1",
+              "alias": "snippet:template_primary_anchor_1",
+              "canonical": "snippet:template_primary_anchor_1",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_2",
+              "alias": "snippet:template_primary_anchor_2",
+              "canonical": "snippet:template_primary_anchor_2",
+              "status": "canonical"
+            },
+            {
+              "raw": "snippet:template_primary_anchor_3",
+              "alias": "snippet:template_primary_anchor_3",
+              "canonical": "snippet:template_primary_anchor_3",
+              "status": "canonical"
+            }
+          ],
+          "related": [
+            {
+              "raw": "claim:template_core_argument",
+              "alias": "claim:template_core_argument",
+              "canonical": "claim:template_core_argument",
+              "status": "canonical"
+            }
+          ]
+        },
+        "unresolved_outgoing_links": []
+      },
+      "reliability_profile": {
+        "archival_validity": "well_attested",
+        "analytical_credibility": "direct_evidence",
+        "prose_risk": "medium",
+        "missing_axes": []
+      },
+      "conflict_profile": {
+        "active_conflict_degree": "none",
+        "conflict_severity": "none",
+        "active_conflicts": [],
+        "refuted_by": [],
+        "superseded_by": [],
+        "complicated_by": [],
+        "is_refuter": false,
+        "is_superseder": false
+      },
+      "chronology_profile": {
+        "event_date": "",
+        "document_date": "",
+        "publication_date": "",
+        "assertion_date": "",
+        "date_relation": "",
+        "warnings": []
+      },
+      "evidence_stage": "manuscript_ready",
+      "evidence_stage_inferred": false
+    }
+  },
+  "claims": {
+    "claim:template_core_argument": {
+      "evidence_vector": {
+        "primary_quote_count": 3,
+        "primary_paraphrase_count": 0,
+        "secondary_synthesis_count": 0,
+        "source_verified_count": 3,
+        "report_verified_count": 0,
+        "negative_finding_count": 0,
+        "direct_evidence_count": 3,
+        "indirect_evidence_count": 0,
+        "active_conflict_count": 0,
+        "chronology_warning_count": 0,
+        "high_prose_risk_count": 0
+      },
+      "argument_readiness": "strong",
+      "argument_readiness_rationale": "strong: primary_quote_count >= 3 and source_verified_count >= 2",
+      "relation_sources": {
+        "snippet:template_primary_anchor_1": [
+          "claim:template_core_argument -> snippet:template_primary_anchor_1",
+          "snippet:template_primary_anchor_1 -> synthesis:template_evidence_synthesis -> claim:template_core_argument",
+          "snippet:template_primary_anchor_1.claim_ids -> claim:template_core_argument"
+        ],
+        "snippet:template_primary_anchor_2": [
+          "claim:template_core_argument -> snippet:template_primary_anchor_2",
+          "snippet:template_primary_anchor_2 -> synthesis:template_evidence_synthesis -> claim:template_core_argument",
+          "snippet:template_primary_anchor_2.claim_ids -> claim:template_core_argument"
+        ],
+        "snippet:template_primary_anchor_3": [
+          "claim:template_core_argument -> snippet:template_primary_anchor_3",
+          "snippet:template_primary_anchor_3 -> synthesis:template_evidence_synthesis -> claim:template_core_argument",
+          "snippet:template_primary_anchor_3.claim_ids -> claim:template_core_argument"
+        ]
+      },
+      "evidence_bindings_resolved": [
+        {
+          "card_id": "snippet:template_primary_anchor_1",
+          "chronology_use": "unknown",
+          "raw_card_id": "snippet:template_primary_anchor_1",
+          "override_active": false
+        },
+        {
+          "card_id": "snippet:template_primary_anchor_2",
+          "chronology_use": "unknown",
+          "raw_card_id": "snippet:template_primary_anchor_2",
+          "override_active": false
+        },
+        {
+          "card_id": "snippet:template_primary_anchor_3",
+          "chronology_use": "unknown",
+          "raw_card_id": "snippet:template_primary_anchor_3",
+          "override_active": false
+        }
+      ],
+      "chronology_warnings": []
+    }
+  }
+}

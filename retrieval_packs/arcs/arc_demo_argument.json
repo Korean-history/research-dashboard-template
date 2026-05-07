@@ -1,0 +1,89 @@
+{
+  "arc": {
+    "arc_id": "arc:demo_argument",
+    "title": "Demo Argument Arc",
+    "chapters": [
+      "Ch1"
+    ],
+    "tags": [
+      "method",
+      "evidence",
+      "synthesis"
+    ],
+    "claim_ids": [
+      "claim:template_core_argument"
+    ],
+    "report_files": [
+      "Template_Report.md"
+    ],
+    "core_question": "How does the sample evidence support a bounded claim?",
+    "synthesis_note": "Replace this with the project's real argument movement."
+  },
+  "readiness": {
+    "total_claims": 1,
+    "total_snippets": 1,
+    "claims_without_snippets_count": 0,
+    "claims_without_snippets": [],
+    "snippets_needing_print_verification_count": 1,
+    "snippets_needing_print_verification": [
+      "snippet:template_primary_anchor_1"
+    ],
+    "high_or_critical_risk_snippets_count": 0,
+    "high_or_critical_risk_snippets": [],
+    "high_risk_without_friction_notes_count": 0,
+    "high_risk_without_friction_notes": [],
+    "evidence_types": {
+      "primary_quote": 1
+    }
+  },
+  "claims": [
+    {
+      "claim_id": "claim:template_core_argument",
+      "chapter": "Ch1",
+      "claim_type": "interpretive",
+      "state": "strong / stable / low",
+      "claim": "Three source anchors can support a starter claim."
+    }
+  ],
+  "snippets": [
+    {
+      "snippet_id": "snippet:template_primary_anchor_1",
+      "title": "Template primary anchor 1",
+      "arc_ids": [
+        "arc:demo_argument"
+      ],
+      "claim_ids": [
+        "claim:template_core_argument"
+      ],
+      "source_ids": [
+        "source:demo_archive"
+      ],
+      "report_files": [
+        "Template_Report.md"
+      ],
+      "entity_ids": [],
+      "term_ids": [],
+      "tags": [
+        "ch:1",
+        "evidence"
+      ],
+      "chapters": [
+        "Ch1"
+      ],
+      "source_locator": "Template_Report.md, anchor 1",
+      "language": "en",
+      "original_snippet": "Template source anchor 1.",
+      "translation_or_summary": "Sample source anchor 1 supports the template starter claim.",
+      "evidence_role": "sample_anchor",
+      "evidence_type": "primary_quote",
+      "citation_status": "source_verified",
+      "risk_level": "low",
+      "friction_notes": "Template evidence only.",
+      "notes": "Replace with a real snippet."
+    }
+  ],
+  "report_files": [
+    "Template_Report.md"
+  ],
+  "additional_snippet_reports": []
+}

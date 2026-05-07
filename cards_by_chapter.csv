@@ -1,0 +1,6 @@
+key,card_id,card_type,title,status,path
+Ch1,snippet:template_primary_anchor_1,source_snippet,Template primary anchor 1,stable,cards/source_snippet/snippet.template_primary_anchor_1.md
+Ch1,snippet:template_primary_anchor_2,source_snippet,Template primary anchor 2,stable,cards/source_snippet/snippet.template_primary_anchor_2.md
+Ch1,snippet:template_primary_anchor_3,source_snippet,Template primary anchor 3,stable,cards/source_snippet/snippet.template_primary_anchor_3.md
+Ch1,claim:template_core_argument,claim,Template core argument,stable,cards/claim/claim.template_core_argument.md
+Ch1,synthesis:template_evidence_synthesis,synthesis,Template evidence synthesis,stable,cards/synthesis/synthesis.template_evidence_synthesis.md

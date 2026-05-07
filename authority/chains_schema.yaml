@@ -1,0 +1,23 @@
+schema_version: 2
+chain_fields:
+  chain_id: string
+  title: string
+  chapter: string
+  source_agent: string
+  status: simulation|approved|drafted
+item_fields:
+  id: string
+  cited_card_ids: list
+  argument_role: climactic|supporting|synthesis|contextual
+  prose_policy: quote_directly|paraphrase|background_context|footnote_only|do_not_use_directly
+  caveat: string_or_null
+  override_rationale: string_or_null
+legacy_role_aliases:
+  climax: climactic
+  proof: supporting
+  setup: contextual
+  background: contextual
+  bridge: contextual
+  transition: contextual
+  friction: supporting
+cards_only: true

@@ -1,0 +1,48 @@
+schema_version: 1
+title: "Authority Constitution"
+project: "Research Dashboard Template"
+owner: "Project Owner"
+purpose: >
+  Project-neutral constitution for a card-driven research harness. Replace this
+  file with project-specific historical, literary, scientific, legal, or other
+  disciplinary guardrails.
+
+constitution:
+  first_law: >
+    The machine preserves research judgment; it does not replace it.
+  second_law: >
+    Fluency is not evidence. A claim becomes usable only when it is connected
+    to sources, reports, authority IDs, and explicit risk status.
+  third_law: >
+    Preserve friction, uncertainty, and counterevidence instead of smoothing it
+    away during synthesis or prose work.
+
+authority_layers:
+  - file: "authority/entities.csv"
+    role: "Canonical people, organizations, and places"
+  - file: "authority/terms.csv"
+    role: "Canonical concepts, keywords, and correction-risk terms"
+  - file: "authority/sources.csv"
+    role: "Canonical source corpora and evidence clusters"
+  - file: "authority/tags.yaml"
+    role: "Controlled retrieval tag vocabulary"
+  - file: "argument_matrix.csv"
+    role: "Source-to-argument matrix"
+  - file: "argument_arcs.yaml"
+    role: "Cross-project argument arc map"
+
+namespaces:
+  entities: ["person:*", "org:*", "place:*"]
+  terms: ["term:*"]
+  sources: ["source:*"]
+  claims: ["claim:*"]
+  arcs: ["arc:*"]
+  snippets: ["snippet:*", "snip:*"]
+canonical_chapters:
+  - Ch1
+
+risk_scale:
+  low: "Safe starter claim."
+  medium: "Requires normal review."
+  high: "Known risk."
+  critical: "Blocked until resolved."

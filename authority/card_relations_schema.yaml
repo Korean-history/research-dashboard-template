@@ -1,0 +1,23 @@
+schema_version: 1
+purpose: "Typed conflict / refutation relations for the card graph."
+relations:
+  contradicts:
+    semantics: "unresolved tension; both cards stand"
+    directional: false
+    severity: medium
+    drives_warning: true
+  refutes:
+    semantics: "source card defeats target card or position"
+    directional: true
+    severity: high
+    drives_warning: true
+  supersedes:
+    semantics: "source card replaces target with corrected or newer evidence"
+    directional: true
+    severity: high
+    drives_warning: true
+  complicates:
+    semantics: "source card qualifies target without defeating it"
+    directional: true
+    severity: low
+    drives_warning: false

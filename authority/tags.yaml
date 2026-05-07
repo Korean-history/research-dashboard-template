@@ -1,0 +1,19 @@
+schema_version: 1
+purpose: "Controlled retrieval tags for the template project."
+tag_categories:
+  - category_id: chapter_scope
+    tags:
+      - tag_id: "ch:1"
+        label: "Chapter 1"
+        aliases: ["Ch1", "Chapter One"]
+  - category_id: workflow
+    tags:
+      - tag_id: method
+        label: "Method"
+        aliases: ["methodology", "workflow"]
+      - tag_id: evidence
+        label: "Evidence"
+        aliases: ["source", "primary source"]
+      - tag_id: synthesis
+        label: "Synthesis"
+        aliases: ["argument synthesis"]

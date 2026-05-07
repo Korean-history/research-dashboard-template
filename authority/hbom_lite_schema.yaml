@@ -1,0 +1,73 @@
+schema_version: 1
+name: hbom_lite
+description: Research Account Capture sidecar schema. The implementation validates the v1 contract in tools/research_account_capture.py.
+required_top_level:
+  - schema_version
+  - generated_at_utc
+  - generator
+  - run
+  - queries
+  - evidence
+  - claims
+  - next_actions
+  - warnings
+  - report_status
+  - promotion_metadata
+  - future_compatibility
+enums:
+  mode:
+    - fresh_report
+    - comparison_report
+    - close_reading_report
+    - audit_report
+    - backfill
+  zone:
+    - canonical
+    - derivative
+    - interpretive
+  support_type:
+    - primary_supported
+    - secondary_supported
+    - logseq_derived
+    - mixed_support
+    - speculative
+    - unresolved
+  promotion_status:
+    - exploratory
+    - supported
+    - manuscript_ready_candidate
+  telemetry_fidelity:
+    - complete
+    - degraded_journals
+    - degraded_uacp
+    - partial_missing
+    - not_available
+  warning_category:
+    - missing_query_variant
+    - missing_corpus_layer
+    - single_source_dependence
+    - journal_only_primary_claim
+    - primary_only_no_secondary_context
+    - short_query_false_zero
+    - postwar_secondary_contamination
+    - potential_counter_evidence_route
+    - claim_promotion_overreach
+    - telemetry_unavailable
+    - claim_evidence_missing_link
+    - telemetry_stale_merge
+    - expected_anomaly_logseq_canonical
+    - unrecognized_corpus_type
+    - other
+well_known_corpora:
+  - uacp
+  - journals
+  - endnote
+  - calibre
+  - logseq
+  - manuscript
+  - cards
+  - manuscript_memory
+  - other
+notes:
+  - Unknown output keys are permitted for additive schema evolution.
+  - Unknown input claims-YAML keys are hard errors and are validated by the tool, not this schema file.
